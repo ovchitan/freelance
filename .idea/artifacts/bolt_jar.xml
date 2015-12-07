@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="bolt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/bolt_jar</output-path>
+    <properties id="ant-preprocessing">
+      <options enabled="true" />
+    </properties>
+    <root id="archive" name="bolt.jar">
+      <element id="module-output" name="bolt" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="file-copy" path="C:/lwjgl/jar/lwjgl.jar" />
+      <element id="library" level="project" name="lwjgl" />
+      <element id="dir-copy" path="$PROJECT_DIR$/objects" />
+    </root>
+  </artifact>
+</component>
